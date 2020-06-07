@@ -1,0 +1,1 @@
+<h3>Sorry your reservation is cancelled, please try again.</h3>

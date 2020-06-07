@@ -1,0 +1,1 @@
+<h3>Sorry payment is not success, please <a href="/reservation">try again.</a></h3>

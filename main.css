@@ -1,0 +1,295 @@
+.header-inner.section-inner{
+  padding: 1.5rem 4rem;
+  width: 100%;
+  position: relative;
+}
+
+form#booksys {
+    background-color: #fff;
+    padding: 20px 60px;
+    overflow: auto;
+    max-width: 60%;
+}
+
+
+.accordion-checklist{
+  width: 100%;
+  float: left;
+  padding: 15px 10px;
+  background-color: #f0f0f0;
+  margin-top: 20px;
+}
+.accordion-checklist-box{
+  width: 100%;
+  float: left;
+}
+.accordion-checklist-box.hide{
+  display: none;
+}
+
+.accordion-checklist h6{
+  margin:0 !important;
+}
+
+#account-track{
+  width: 100%;
+  overflow: auto;
+} 
+#account-track ul{
+  list-style: none;
+  float: right;
+}
+#account-track li{
+  float: left;
+  margin-left: 20px;
+}
+
+#account-track li a{
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+#account-track li a:hover{
+  color:#1dce33;
+}
+
+#booksys h3{
+  margin-top: 10px;
+}
+
+#booksys input, #booksys textarea{
+  margin-top: 5px;
+  padding: 10px 15px;
+}
+
+#booksys #phone{
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.iti.iti--allow-dropdown{
+  margin-top: 5px;
+  width: 100%;
+}
+
+.iti__country-list{
+  overflow-y: scroll !important;
+}
+
+#booksys .iti--allow-dropdown input, #booksys .iti--allow-dropdown input[type=text], #booksys .iti--allow-dropdown input[type=tel],#booksys .iti--separate-dial-code input, #booksys .iti--separate-dial-code input[type=text], #booksys .iti--separate-dial-code input[type=tel] {
+    padding-right: 6px;
+    padding-left: 52px;
+    margin-left: 0;
+}
+
+.move-next{
+  float: right;
+}
+
+.move-back{
+  float: left;
+}
+
+.step-hidden{
+  display: none;
+}
+
+.step-visible{
+  display: block;
+}
+
+.child_row{
+  margin-top: 20px;
+  overflow: auto;
+}
+.step-header h4{
+  font-size: 22px;
+  margin: 5px 0px 10px !important;
+}
+.step-header .alert {
+    color: #f00;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.step-header{
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 30px;
+
+}
+
+.step-footer {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 10px;
+}
+
+i#add_child {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+#add_child .plus{
+  color:#1dce33;
+  font-size: 22px;
+}
+
+#child_box{
+  margin-bottom: 20px;
+}
+
+.book-control a{
+  text-decoration: none;
+  color: #f00;
+}
+
+.prev-box{
+  width: 20%;
+  float: left;
+}
+.next-box{
+  width: 20%;
+  float: left;
+} 
+.center-box{
+  text-align: center;
+  width: 60%;
+  float: left;
+}
+
+#booksys input.promo {
+    display: inline-block;
+    width: 74%;
+}
+#booksys button.promo-cta {
+    background-color: #1dce33;
+    text-decoration: none !important;
+    display: inline-block;
+    width: 24%;
+    padding: 9px;
+}
+
+span.check-desc {
+    font-size: 16px;
+}
+.packages-wrapper{
+float:left;
+width:70%;
+padding-right:30px;
+}
+
+.price-wrapper p{
+margin-bottom:0px;
+}
+
+
+i#remove_child i {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+i#remove_child {
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+i#add_child i {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+i#add_child {
+    font-size: 14px;
+}
+
+input[type=checkbox].css-checkbox {
+              position:static; z-index:-1000; opacity: 0; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:0px; width:0px; margin:0px; padding:0 !important; border:0; float: right;
+            }
+
+            input[type=checkbox].css-checkbox + label.css-label {
+              padding-left:30px;
+              height:25px; 
+              display:inline-block;
+              line-height:25px;
+              background-repeat:no-repeat;
+              background-position: 0 0;
+              font-size:25px;
+              vertical-align:middle;
+              cursor:pointer;
+
+            }
+
+            input[type=checkbox].css-checkbox:checked + label.css-label {
+              background-position: 0 -25px;
+            }
+            label.css-label {
+        background-image:url(chk.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+#booksys #complete{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+    background-color: #f00;
+    text-decoration: none;
+}
+.step-content {
+    overflow: auto;
+}
+#booksys .qty {
+    width: 45px;
+    height: 25px;
+    text-align: center;
+}
+#booksys input.qtyplus { width:25px; height:25px; padding: 0;    background-color: #1dce33;
+    text-decoration: none !important;}
+#booksys input.qtyminus { width:25px; height:25px; padding: 0;    background-color: #1dce33;
+    text-decoration: none !important;}
+
+.step-3 .check-marks{
+  float: left;
+}
+
+.quantity-box{
+  float: right;
+}
+
+.step-3 .quantity-box input {
+    float: left;
+}
+
+.step-3 .check-row{
+  float: left;
+  width: 100%;
+}
+
+@media only screen and (max-width: 900px){
+html .header-inner.section-inner{
+  padding: 10px 1rem;
+} 
+  form#booksys {
+    padding: 10px 20px;
+    max-width: 100%;
+  }
+.step-header h4{
+  font-size: 18px;
+}
+
+.modal-menu > li > a, .modal-menu > li > .ancestor-wrapper > a{
+  background-color: #fff;
+}
+html .site-logo img {
+    height: 50px !important;
+}
+}
+
